@@ -6,3 +6,22 @@ classical bootstrap sampling to optimize the use of limited number of available 
 
 ## Overview
 <img src="images/Bootqa_Tooloverview.png" width="800">
+
+## How to run
+BQTmizer is running on the local host.
+Please first download the repository and create the environment.
+Anaconda Python distribution is required [here](https://www.anaconda.com/products/distribution)
+```
+git clone https://github.com/qiqihannah/BQTmizer.git
+cd bqtmizer
+conda create -n bqtmizer_env python=3.10
+conda activate bqtmizer_env
+pip install -r requirements.txt
+```
+Now, run the following code to start BQTmizer.
+```
+streamlit run bqtmizer_st.py
+```
+
+More details can be found in this video [here](https://youtu.be/i0ZNHLr1XDw.).
+
